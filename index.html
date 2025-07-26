@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LunaMint Clone</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Create Your SPL Token</h1>
+    <input type="text" id="tokenName" placeholder="Token Name" />
+    <input type="text" id="tokenSymbol" placeholder="Token Symbol" />
+    <input type="number" id="tokenDecimals" placeholder="Decimals (e.g., 9)" />
+    <input type="number" id="tokenSupply" placeholder="Total Supply" />
+    <input type="file" id="tokenLogoUpload" accept="image/*" />
+    <button id="connectWalletBtn">Connect Wallet</button>
+    <button id="launchTokenBtn">Launch Token</button>
+    <p id="walletAddress"></p>
+    <p id="status"></p>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
